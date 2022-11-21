@@ -1,0 +1,72 @@
+body {
+  margin: 2rem;
+  text-transform: capitalize;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.header__top {
+  background-color: green;
+  color: white;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.header__mid {
+  margin: 1rem 0;
+}
+
+p {
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.address__area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.address__right div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  text-align: center;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+th {
+  background: lightgray;
+}
+
+.terms__area {
+  margin-top: 200px;
+}
